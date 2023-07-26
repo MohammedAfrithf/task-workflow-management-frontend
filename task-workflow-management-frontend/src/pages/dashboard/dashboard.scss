@@ -1,0 +1,19 @@
+.dashboard {
+    display: flex;
+
+    .dashboardContainer {
+        flex: 6;
+
+        
+    }
+    .widgets{
+        justify-content: space-between;
+        flex: 1;
+        flex-wrap: wrap;
+        display: flex;
+        padding: 10px;
+        gap: 20px
+    }
+    
+    
+}
